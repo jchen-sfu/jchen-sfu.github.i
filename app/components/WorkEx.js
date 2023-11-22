@@ -1,15 +1,20 @@
 import React from 'react'
-import { Typography, Box, List, ListItem, ListItemText, Divider, Link } from '@mui/material'
+import { Typography, Box, List, ListItem, ListItemText, ListItemAvatar, Avatar, Divider, Link } from '@mui/material'
 
 export default function WorkEx() {
 
     return (
-        <Box>
+        <Box
+            padding={2}
+        >
             <Typography variant="h5">
-              WorkEx
+                WorkEx
             </Typography>
             <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
                 <ListItem alignItems="flex-start">
+                    <ListItemAvatar>
+                        <Avatar alt="LOGO" src="/SAFESOFTWARE_LOGO.png" />
+                    </ListItemAvatar>
                     <ListItemText
                         primary="Safe Software QA Intern"
                         secondary={
