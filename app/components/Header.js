@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography, Box, Grid } from '@mui/material'
+import { Typography, Box, Grid, Link } from '@mui/material'
 
 export default function Header() {
 
@@ -16,8 +16,8 @@ export default function Header() {
         <Grid item xs={6}>
           <Box
             sx={{
-              padding: 15,
-              minHeight: 50,
+              padding: 10,
+              minHeight: 100,
               bgcolor: "#fafafa",
               justifyContent: "right",
             }}
@@ -28,6 +28,18 @@ export default function Header() {
             <Typography variant="body1">
               {"I'm Jerry. I study, code, and play games. Here is me ->"}
             </Typography>
+            <Typography variant="body1">
+              {"Here is a link to my "}
+              <Link href="https://www.overleaf.com/read/gkgvkpjmjjzd#be2279" underline="none">
+                {'resume'}
+              </Link>
+            </Typography>
+            <Typography variant="body1">
+              {"Here is a link to my favourite game:"}
+            </Typography>
+            <Link href="https://www.naeu.playblackdesert.com/en-US/Main/Index" underline="none">
+              {'PLAY BLACK DESERT'}
+            </Link>
           </Box>
         </Grid>
         <Grid item xs={6}>
@@ -44,7 +56,7 @@ export default function Header() {
                 width: "30%",
               }}
               alt="Jerry Chen"
-              src="/graphics/profile.png"
+              src="/profile.png"
             />
           </Box>
         </Grid>
