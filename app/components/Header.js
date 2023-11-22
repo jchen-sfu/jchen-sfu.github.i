@@ -44,7 +44,7 @@ export default function Header() {
                 width: "30%",
               }}
               alt="Jerry Chen"
-              src="/graphics/profile.png"
+              src="/profile.png"
             />
           </Box>
         </Grid>

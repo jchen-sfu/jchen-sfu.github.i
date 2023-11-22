@@ -7,6 +7,9 @@ import Projects from "./components/Projects"
 export const metadata = {
   title: 'Home',
   description: 'homepage',
+  icons: {
+    icon: '/icon.ico',
+  },
 }
 
 export default function Home() {
