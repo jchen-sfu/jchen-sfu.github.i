@@ -14,4 +14,4 @@
 
 ### License
 
-This is not proprietry code. Hence I do not care for what others do with it.
+This repo is non-proprietary and uses the MIT license. I don't mind the code being shared but I doubt that it will.
