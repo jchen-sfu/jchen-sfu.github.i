@@ -1,19 +1,20 @@
 import React from "react"
-import { Box } from "@mui/material"
-import { Biography, Education, Hobbies, Links, Portrait, Projects, Resume, VolunteerEx, WorkEx } from "./components/modules"
+import RootLayout from "./layout"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Projects from "./components/Projects"
+
+export const metadata = {
+  title: 'Home',
+  description: 'homepage',
+}
 
 export default function Home() {
   return (
-    <Box>
-      <Biography/>
-      <Education/>
-      <Hobbies/>
-      <Links/>
-      <Portrait/>
+    <RootLayout>
+      <Header/>
       <Projects/>
-      <Resume/>
-      <VolunteerEx/>
-      <WorkEx/>
-    </Box>
+      <Footer/>
+    </RootLayout>
   )
 }

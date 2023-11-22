@@ -1,9 +1,0 @@
-export { default as Biography } from "./Biography";
-export { default as Education } from "./Education";
-export { default as Hobbies } from "./Hobbies";
-export { default as Links } from "./Links";
-export { default as Portrait } from "./Portrait";
-export { default as Projects } from "./Projects";
-export { default as Resume } from "./Resume";
-export { default as VolunteerEx } from "./VolunteerExperience";
-export { default as WorkEx } from "./WorkExperience";
